@@ -5,14 +5,16 @@
 //  Created by 刘林 on 2025/7/24.
 //
 
-import SwiftUI
+import Foundation
+import SwiftData
 
-struct SwiftDataItem: View {
-    var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+@Model
+final class SwiftDataItem {
+    var name: String = ""
+    var phone: String = ""
+    
+    init(name: String, phone: String) {
+        self.name = name
+        self.phone = phone
     }
-}
-
-#Preview {
-    SwiftDataItem()
 }

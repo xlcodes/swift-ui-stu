@@ -23,7 +23,8 @@ struct ContentView: View {
 //            .navigationTitle("SwiftUI 学习示例")
 //            .navigationBarTitleDisplayMode(.inline)
 //        }
-        Capter13().environmentObject(viewModel)
+//        Capter13().environmentObject(viewModel)
+        SwiftDataDemo()
     }
 }
 
