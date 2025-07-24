@@ -256,6 +256,9 @@
 				DEVELOPMENT_TEAM = 8U8FUMNXGL;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "App需要您的同意才能使用相机拍摄图片，是否允许？";
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "App需要您的同意才能使用面容ID进行认证，是否允许？";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "App需要您的同意才能从相册中上传图片，是否允许？";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -284,6 +287,9 @@
 				DEVELOPMENT_TEAM = 8U8FUMNXGL;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "App需要您的同意才能使用相机拍摄图片，是否允许？";
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "App需要您的同意才能使用面容ID进行认证，是否允许？";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "App需要您的同意才能从相册中上传图片，是否允许？";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

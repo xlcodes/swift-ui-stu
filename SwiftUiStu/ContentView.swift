@@ -13,16 +13,17 @@ struct Example {
 }
 
 struct ContentView: View {
-
+    @State var viewModel = Capter13ViewModel()
+    
     var body: some View {
-        NavigationStack {
-            Form {
-                SwiftUiRapidDeve()
-            }
-            .navigationTitle("SwiftUI 学习示例")
-            .navigationBarTitleDisplayMode(.inline)
-        }
-        
+//        NavigationStack {
+//            Form {
+//                SwiftUiRapidDeve()
+//            }
+//            .navigationTitle("SwiftUI 学习示例")
+//            .navigationBarTitleDisplayMode(.inline)
+//        }
+        Capter13().environmentObject(viewModel)
     }
 }
 
