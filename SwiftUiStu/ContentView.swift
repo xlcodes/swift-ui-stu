@@ -24,7 +24,9 @@ struct ContentView: View {
 //            .navigationBarTitleDisplayMode(.inline)
 //        }
 //        Capter13().environmentObject(viewModel)
-        SwiftDataDemo()
+//        SwiftDataDemo()
+        ToastMessageDemoView()
+            .whitToast()
     }
 }
 
